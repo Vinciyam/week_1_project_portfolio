@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.head {
+    background: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.head h3 {
+    font-size: 2rem;
+    color: #0077ff;
+}
+
+.head p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.nav-bar {
+    margin-top: 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #0077ff;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: #0053c7;
+}
+
+
+section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+
+.aboutpage p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+.skillspage h3 {
+    margin-top: 15px;
+    color: #0077ff;
+}
+
+.skillspage ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.skillspage li {
+    margin: 6px 0;
+    padding-left: 10px;
+    position: relative;
+}
+
+.skillspage li::before {
+    content: "•";
+    position: absolute;
+    left: -10px;
+    color: #0077ff;
+}
+
+
+.projectspage ol {
+    padding-left: 20px;
+}
+
+.projectspage li {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.projectspage p {
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #444;
+}
+
+
+.educationpage p {
+    font-size: 1.05rem;
+    margin: 8px 0;
+}
+
+
+.contactme {
+    font-size: 1.1rem;
+}
+
+.contactme a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.contactme a:hover {
+    text-decoration: underline;
+}
+
+
+.foot {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.foot form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto 15px auto;
+}
+
+.foot input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.foot input[type="submit"] {
+    background: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.foot input[type="submit"]:hover {
+    background: #0053c7;
+}
+
+
+@media (max-width: 600px) {
+    .head h3 {
+        font-size: 1.6rem;
+    }
+
+    .nav-bar a {
+        display: inline-block;
+        margin: 8px 5px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
