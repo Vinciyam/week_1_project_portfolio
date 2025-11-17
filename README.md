@@ -31,5 +31,8 @@ The project covers all required Week-1 concepts including semantic HTML structur
 - Hover effects  
 - Basic responsiveness  
 
+  🌐 Live Demo  
+https://vinciya-portfolio-4e8684.netlify.app/
+
 
 
